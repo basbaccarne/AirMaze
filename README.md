@@ -17,7 +17,7 @@ Inspired by
 **fabric set-up**
 
 - Suspension system for the fabric (8 x magnet hooks & cables)
-- Lightweight fabric in different colors (TBD)
+- Lightweight fabric in different colors (Fleece cloth?)
 - barrier posts and ribbons
   
 **sensor set-up**
@@ -30,7 +30,7 @@ Inspired by
   
 **air flow set-up**
   
-- Silent Miniature Fans or Blowers
+- Silent Miniature Fans or Blowers (optional: RGB computer fans)
 - Tubes
 - 3D printed air vent covers
 - Mounting hardware (screws, nuts, bolts)
