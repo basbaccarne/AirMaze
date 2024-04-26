@@ -4,6 +4,14 @@ Inspired by
 - [Morning Mist](https://www.designlabexperience.com/projects/morning-mist-fans-installation)
 - [Daniel Wurtzel's Air Series](https://www.danielwurtzel.com/)
 - [Hans Haakcke's Blue Sail](https://arth207-spring.tumblr.com/post/50658432895)
+
+## Description
+- Barrier posts are set-up in a circular patterns of about 2m diameter
+- Each barrier post is equiped with distance sensor, oriented outward
+- In the middle of the circle, fabric is being suspended to the ceiling
+- Underneath de fabric, air vents are installed that trigger when people come close to the distance sensors
+- This creates a mesmerizing dance of the fabric
+
 ## Components
 
 **fabric set-up**
