@@ -30,7 +30,12 @@ Inspired by
   
 **air flow set-up**
   
-- Silent Miniature Fans or Blowers (optional: RGB computer fans)
+- In this iteration we're working with RGB PC fans
+  - These come with a pin for the fan
+    - Takes 5-12V
+    - Tachiometer can read the speed
+    - PWM can control the speed (max speed if unconnected)
+  - And pins for the RGB
 - Tubes
 - 3D printed air vent covers
 - Mounting hardware (screws, nuts, bolts)
