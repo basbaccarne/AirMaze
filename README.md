@@ -32,6 +32,7 @@ Inspired by
   
 - In this iteration we're working with RGB PC fans
   - These come with a pin for the fan
+    - <img src="tests/img/fan_pinout.png" width="200">
     - Takes 5-12V
     - Tachiometer can read the speed
     - PWM can control the speed (max speed if unconnected)
