@@ -29,33 +29,31 @@ Inspired by
 - Base plate
 
 ## Sensor set-up  
-Components:
-- 6 x HC-SR04 Ultrasonic distance sensor
-- 6 x Arduino Uno & wires
+Components of a signle unit:
+- HC-SR04 Ultrasonic distance sensor
+- Arduino Uno & wires
 - LN298N motor driver
-- 6x Power supply
+- Fan
+- Power supply
 - Casing
 
-The Arduino detects the distance and maps this to a PWM signal that drives the motor.   
+The Arduino detects the distance and maps this to a PWM signal that drives the motor.  The closer something is, the harder the fan blows
 - Connect the distance sensor to the Arduino (Vcc > 5V, Gnd > GND, Trigg > digital 2, Echo > digital 3)
-- Connect the motor driver to the Arduino
+- Optional: connect the led strip to the Arduino
+- Connect the motor driver to the Arduino (digital 9)
 - Connect the fan to the motor driver
-- Upload this script to the Arduino
+- Upload [this script](distance_mapping.ino) to the Arduino
+- Print the case
+- Mount the Arduino in the case
 - Connect the power to the motor driver
+- Test if the sensitivity is right
   
-**air flow set-up**
-  
-- In this iteration we're working with RGB PC fans
-  - These come with a pin for the fan
-    - <img src="tests/img/fan_pinout.png" width="200">
-    - Takes 5-12V
-    - Tachiometer can read the speed
-    - PWM can control the speed (max speed if unconnected)
-  - And pins for the RGB
+**Air flow set-up**
+Components
+- Sensor boxes
 - Tubes
-- 3D printed air vent covers
-- Mounting hardware (screws, nuts, bolts)
-- Power supply
-
-**Optional: Lights**
-- TBD
+- Fan connections
+- Tube connection pieces
+- Ground plate
+- Paint
+- Styrofoam Balls
