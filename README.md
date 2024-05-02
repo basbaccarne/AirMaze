@@ -20,7 +20,7 @@ This ball game is a puzzle game made out of tubes, fans, small balls and distanc
 - 6 x neopixel strip ([6 x €7](https://www.kiwi-electronics.com/nl/neopixel-stick-8x-5050-rgb-led-met-geintegreerde-drivers-7316)) > €42
 - 6 x LN298N motor driver ([6 x €4](https://www.kiwi-electronics.com/nl/dual-h-bridge-dc-stepper-motor-driver-l298n-4117?search=LN298N)) > €24
 - 6 x DC to Terminal connector ([6 x €2](https://www.kiwi-electronics.com/nl/terminal-block-naar-2-1mm-dc-barrel-jack-female-747?search=Terminal%20connector)) > €12
-- 6 x 5V adapter ([6 x €10](https://www.kiwi-electronics.com/nl/terminal-block-naar-2-1mm-dc-barrel-jack-female-747?search=Terminal%20connector)) > €60
+- 6 x 5V adapter ([6 x €10](https://www.kiwi-electronics.com/nl/voedingsadapter-5v-2-4a-12w-5-5x2-1mm-dc-plug-3595?search=5v%20adapter)) > €60
 - Paint
 - Base plate
 
