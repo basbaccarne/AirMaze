@@ -12,7 +12,7 @@ This ball game is a puzzle game made out of tubes, fans, small balls and distanc
 - This creates a mesmerizing puzzle
 
 ## Materials
-- Tubes, 3 meters / 40-50mm, transparent acryl ([€10/m](https://www.kunststofforte.nl/product/transparante-acrylaat-buizen-xt/)) > €30 (*ordered*)
+- Tubes, 3 meters / 40 mm outer diameter, 2mm thickness, transparent acryl ([€10/m](https://www.kunststofforte.nl/product/transparante-acrylaat-buizen-xt/)) > €30 (*ordered*)
 - 6 x Arduino Unos ([6 x €25](https://www.kiwi-electronics.com/nl/arduino-uno-rev3-atmega328-729?search=arduino)) > €150 (*one in stock > perhaps Kortrijk?*)
 - 6 x small fans (brushless DC, 5V, 0.5A) ([6 x €10](https://www.mouser.be/ProductDetail/Delta-Electronics/EFB0405VHD-F00?qs=%2FW4LtXOBxKsYebwOUVkrBw%3D%3D)) > €60 (*ordered*)
 - 6 x HC-SR04 Ultrasonic distance sensor ([6 x €5,5](https://www.kiwi-electronics.com/nl/ultrasoon-sensor-hc-sr04-2592?search=HC-SR04%20Ultrasonic%20distance%20sensor)) > €33 (*one in stock*)
