@@ -1,11 +1,6 @@
 # Zephyr-Whispers, the ball game
-This ball game is a puzzle game made out of tubes, fans, small balls and distance sensors. You need to get the ball through the maze by walking around the structure.
-**Initial idea**
-An immersive circular installation where lightweight fabric panels sway and dance in response to visitors’ movements, creating a mesmerizing play of colors and gentle breezes
-Inspired by
-- [Morning Mist](https://www.designlabexperience.com/projects/morning-mist-fans-installation)
-- [Daniel Wurtzel's Air Series](https://www.danielwurtzel.com/)
-- [Hans Haakcke's Blue Sail](https://arth207-spring.tumblr.com/post/50658432895)
+This ball game is a puzzle game made out of tubes, fans, small balls and distance sensors. You need to get the ball through the maze by walking around the structure.   
+
 
 ## Description
 - Barrier posts are set-up in a circular patterns of about 1m diameter
@@ -48,7 +43,7 @@ The Arduino detects the distance and maps this to a PWM signal that drives the m
 - Connect the power to the motor driver
 - Test if the sensitivity is right
   
-**Air flow set-up**
+## Air flow set-up
 Components
 - Sensor boxes
 - Tubes
@@ -57,3 +52,10 @@ Components
 - Ground plate
 - Paint
 - Styrofoam Balls
+
+**Initial idea**   
+An immersive circular installation where lightweight fabric panels sway and dance in response to visitors’ movements, creating a mesmerizing play of colors and gentle breezes
+Inspired by
+- [Morning Mist](https://www.designlabexperience.com/projects/morning-mist-fans-installation)
+- [Daniel Wurtzel's Air Series](https://www.danielwurtzel.com/)
+- [Hans Haakcke's Blue Sail](https://arth207-spring.tumblr.com/post/50658432895)
