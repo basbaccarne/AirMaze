@@ -53,7 +53,7 @@ Components
 - Paint
 - Styrofoam Balls
 
-**Initial idea**   
+## Initial idea   
 An immersive circular installation where lightweight fabric panels sway and dance in response to visitors’ movements, creating a mesmerizing play of colors and gentle breezes
 Inspired by
 - [Morning Mist](https://www.designlabexperience.com/projects/morning-mist-fans-installation)
