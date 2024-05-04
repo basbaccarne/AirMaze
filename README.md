@@ -43,7 +43,10 @@ The Arduino detects the distance and maps this to a PWM signal that drives the m
   - Vcc (fan) to Out1 (LN298N)
   - GND (fan) to Out2 (LN298N)
 - Connect the distance sensor to the Arduino
-  - Vcc (sensor) > 5V (Arduino), Gnd (sensor)  > GND (Arduino), Trigg (sensor)  > digital 2 (Arduino), Echo (sensor) > digital 3 (Arduino)
+  - Vcc (sensor) to 5V (Arduino)
+  - Gnd (sensor)  to GND (Arduino)
+  - Trigg (sensor) to digital 2 (Arduino)
+  - Echo (sensor) to digital 3 (Arduino)
 - Connect the motor driver to the Arduino
   - Remove the ENa Jumper 
   - digital 9 (Arduino) to ENa
