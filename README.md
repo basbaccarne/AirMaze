@@ -36,7 +36,8 @@ Components of a signle unit:
 - Power supply
 - Casing
 
-The Arduino detects the distance and maps this to a PWM signal that drives the motor and a pulsating LED strip.  The closer something is, the harder the fan blows and the faster the led moves.
+The Arduino detects the distance and maps this to a PWM signal that drives the motor and a pulsating LED strip.  The closer something is, the harder the fan blows and the faster the led moves.    
+**Connections**   
 - Connect the **power**
   - 7V Vcc (Terminal connector) to Vin (Arduino) & 12V in (LN298N)
   - GND (Terminal connector) to GND (Arduino) & GND (LN298N)
@@ -55,13 +56,12 @@ The Arduino detects the distance and maps this to a PWM signal that drives the m
 - Connect the **led strip** to the Arduino
   - Connect Connect Din (Neopixel) to Digital 6 (Arduino)
   - Connect 5VDC (Neopixel) to 5V (Arduino)
-  - Connect GND (Neopixel) to GND (Arduino)
-    
+  - Connect GND (Neopixel) to GND (Arduino)   
+ **code**      
 - Upload [this script](distance_mapping.ino) to the Arduino
-- Print the case
-- Mount the Arduino in the case
-- Test if the sensitivity is right
-  
+**case**   
+- The base component are mounted on a [laser cutted base](https://www.instructables.com/5-Design-of-Laser-Cut-Cases-for-5-Popular-Platform/)
+
 ## Air flow set-up
 Components
 - Sensor boxes
@@ -72,6 +72,13 @@ Components
 - Ground plate
 - Paint
 - Styrofoam Balls
+
+## Final installation
+- Central piece on a pedestal
+- Mount fans & LED strips
+- Mount motion sensors
+- Connect components and power (single switch power distribution plug)
+- Test and adjust sensitivity
 
 ## Initial idea   
 An immersive circular installation where lightweight fabric panels sway and dance in response to visitors’ movements, creating a mesmerizing play of colors and gentle breezes
