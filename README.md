@@ -50,8 +50,8 @@ The Arduino detects the distance and maps this to a PWM signal that drives the m
 - Connect the motor driver to the Arduino
   - Remove the ENa Jumper 
   - digital 9 (Arduino) to ENa
-  - digital 8 (Arduin) to IN1
-- Optional: connect the led strip to the Arduino
+  - digital 8 (Arduino) to IN1
+- Connect the led strip to the Arduino
   - Connect Connect Din (Neopixel) to Digital 6 (Arduino)
   - Connect 5VDC (Neopixel) to 5V (Arduino)
   - Connect GND (Neopixel) to GND (Arduino)
