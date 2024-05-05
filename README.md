@@ -66,7 +66,8 @@ The Arduino detects the distance and maps this to a PWM signal that drives the m
 Components
 - Sensor boxes
 - Tubes
-- Fan connections
+- [Fan connections](https://a360.co/3UqDi5y)
+  - Fan connections are inserted on the inside of the tubes to be able to acces the mounting holes
 - Tube connection pieces
 - Ground plate
 - Paint
