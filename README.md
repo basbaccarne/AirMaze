@@ -29,7 +29,7 @@ This ball game is a puzzle game made out of tubes, fans, small balls and distanc
 - Fine saw (*bring it*)
 
 ## Sensor set-up  
-#### Components of a signle unit:
+#### Components of a single 'measure & blow' unit:
 - HC-SR04 Ultrasonic distance sensor
 - Arduino Uno & wires
 - LN298N motor driver
