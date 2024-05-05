@@ -1,5 +1,6 @@
 # Zephyr-Whispers, the ball game
 This ball game is a puzzle game made out of tubes, fans, small balls and distance sensors. You need to get the ball through the maze by walking around the structure.   
+
 ![idea](/img/idea.jpg)
 
 
@@ -28,7 +29,7 @@ This ball game is a puzzle game made out of tubes, fans, small balls and distanc
 - Fine saw (*bring it*)
 
 ## Sensor set-up  
-Components of a signle unit:
+#### Components of a signle unit:
 - HC-SR04 Ultrasonic distance sensor
 - Arduino Uno & wires
 - LN298N motor driver
@@ -37,7 +38,7 @@ Components of a signle unit:
 - Casing
 
 The Arduino detects the distance and maps this to a PWM signal that drives the motor and a pulsating LED strip.  The closer something is, the harder the fan blows and the faster the led moves.    
-**Connections**   
+#### Connections
 - Connect the **power**
   - 7V Vcc (Terminal connector) to Vin (Arduino) & 12V in (LN298N)
   - GND (Terminal connector) to GND (Arduino) & GND (LN298N)
@@ -57,9 +58,9 @@ The Arduino detects the distance and maps this to a PWM signal that drives the m
   - Connect Connect Din (Neopixel) to Digital 6 (Arduino)
   - Connect 5VDC (Neopixel) to 5V (Arduino)
   - Connect GND (Neopixel) to GND (Arduino)   
- **code**      
+#### Code
 - Upload [this script](distance_mapping.ino) to the Arduino
-**case**   
+#### Case
 - The base component are mounted on a [laser cutted base](https://www.instructables.com/5-Design-of-Laser-Cut-Cases-for-5-Popular-Platform/)
 
 ## Air flow set-up
