@@ -9,6 +9,7 @@ const int N_LEDs = 8;
 
 // Varibles for Neopixel control
 unsigned long previousMillis_LED = 0;
+const int N_LEDs = 8;
 int ledID = 0;
 
 // Variables for Dummy
@@ -54,4 +55,6 @@ void loop() {
 
     previousMillis_LED = currentMillis;
   }
+
+  
 }
