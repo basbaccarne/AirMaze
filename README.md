@@ -1,4 +1,4 @@
-# Zephyr-Whispers, the ball game
+# AirMaze
 This ball game is a puzzle game made out of tubes, fans, small balls and distance sensors. You need to get the ball through the maze by walking around the structure.   
 
 ![idea](/img/idea.jpg)
