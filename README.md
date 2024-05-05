@@ -30,12 +30,13 @@ This ball game is a puzzle game made out of tubes, fans, small balls and distanc
 
 ## Sensor set-up  
 #### Components of a single 'measure & blow' unit:
+- Arduino Uno
+- 7V power source
+- Strong PC fan 5V
 - HC-SR04 Ultrasonic distance sensor
-- Arduino Uno & wires
 - LN298N motor driver
-- Fan
-- Power supply
-- Casing
+- Neopixel Stick
+- Case
 
 The Arduino detects the distance and maps this to a PWM signal that drives the motor and a pulsating LED strip.  The closer something is, the harder the fan blows and the faster the led moves.    
 #### Connections
@@ -65,7 +66,7 @@ The Arduino detects the distance and maps this to a PWM signal that drives the m
 
 ## Air flow set-up
 Components
-- Sensor boxes
+- 'measure & blow' units
 - Tubes
 - [Fan connections](https://a360.co/3UqDi5y)
   - Fan connections are inserted on the inside of the tubes to be able to acces the mounting holes
