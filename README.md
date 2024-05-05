@@ -22,6 +22,7 @@ This ball game is a puzzle game made out of tubes, fans, small balls and distanc
 - 6 x DC to Terminal connector ([6 x €2](https://www.kiwi-electronics.com/nl/terminal-block-naar-2-1mm-dc-barrel-jack-female-747?search=Terminal%20connector))
 - 6 x 5V adapter ([6 x €10](https://www.kiwi-electronics.com/nl/voedingsadapter-5v-2-4a-12w-5-5x2-1mm-dc-plug-3595?search=5v%20adapter))
   - **Issue: the LN298N has a voltage drop of about 1.5-2V > these adapters are not strong enough**
+  - Needed to buy an [alternative variable DC adapter 3 - 12V](https://www.allekabels.nl/ac-dc-adapter/7207/4332190/universele-acdc-adapter.html)
 - Paint (*bring it*)
 - Base plate (*to do*)
 - Fine saw (*bring it*)
