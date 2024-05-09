@@ -57,8 +57,8 @@ The Arduino detects the distance and maps this to a PWM signal that drives the m
   - digital 8 (Arduino) to IN1
 - Connect the **led strip** to the Arduino
   - Connect Connect Din (Neopixel) to Digital 6 (Arduino)
-  - Connect 5VDC (Neopixel) to 5V (Arduino)
-  - Connect GND (Neopixel) to GND (Arduino)   
+  - Connect 5VDC (Neopixel) to 5V (LN298N)
+  - Connect GND (Neopixel) to GND (LN298N)   
 #### Code
 - Upload [this script](distance_mapping.ino) to the Arduino
 #### Case
