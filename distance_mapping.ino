@@ -11,8 +11,8 @@ const int ledPin = 6;    // Neopixel DIN
 // Define variables for HC-SR04 distance measurement
 unsigned long previousMillis_distance = 0;  // timer
 float distance_cm = 0;                      // measured distance (in cm)
-float PWM_value = 0;                        // PWM signal (0 to 255)
-const float min_distance = 90;              // adapt this to the distance at which the motor should start
+float PWM_value = 255;                        // PWM signal (0 to 255)
+const float min_distance = 80;              // adapt this to the distance at which the motor should start
 
 // Define varibles for Neopixel control
 unsigned long previousMillis_LED = 0;  // timer
@@ -66,7 +66,7 @@ void loop() {
   // Map the distance value to the PWM signal (closer = faster motor)
   // But only if an object is within the range of min_distance
   if (distance_cm < min_distance) {
-    PWM_value = map(distance_cm, 0, min_distance, 255, 0);  // play with these mappings in the actual environment
+    PWM_value = map(distance_cm, 0, min_distance, 255, 255);  // play with these mappings in the actual environment
     digitalWrite(motorPin, HIGH);                           // turn motor on
     analogWrite(SpeedPin, PWM_value);                       // set motor speed
     Serial.print(" // PWM:  ");
@@ -77,7 +77,8 @@ void loop() {
 
   // Drive the LED on the Neopixel stick:
   // Moves faster and slower acording to the distance (closer = faster)
-  if (currentMillis - previousMillis_LED > 255 - PWM_value) {  // speed = dependent of PWM value
+
+  if (currentMillis - previousMillis_LED > 300) {  // speed = dependent of PWM value
     ledID++;
     if (ledID > N_LEDs + 1) {
       ledID = 0;
